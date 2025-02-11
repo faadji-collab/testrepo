@@ -1,42 +1,42 @@
 # Exercice  cours 7 :
 
-#def print_cadre(message) :
-#     ligne = '='*len(message*2)
-#     print(f"|{message}|")
-#     print(ligne)
+def print_cadre(message) :
+    ligne = '='*len(message*2)
+    print(f"|{message}|")
+   print(ligne)
 
 # print_cadre("message")
 
 
-# def bar(l: list):    
-#     l.append(1)
-#     l.sort()
-#     print(l)
+ def bar(l: list):    
+     l.append(1)
+     l.sort()
+     print(l)
 
-# my_list = [5, 2, 4]
-# bar(my_list)
-# print(my_list)
+ my_list = [5, 2, 4]
+ bar(my_list)
+ print(my_list)
 
 # Exercice Chapitre 7 :
 
-#n = int(input("saisir n :"))
+n = int(input("saisir n :"))
 
-# def test_premier(m):
-#     for i in range(2,(m+1)**0,5) :
-#         if i % m == 0 :
-#             return False
-#         return True
+ def test_premier(m):
+     for i in range(2,(m+1)**0,5) :
+         if i % m == 0 :
+             return False
+         return True
 
-# def somme_des_nombres(n) :
-#     somme = compteur = 0
-#     nombre= 2
-#     while  compteur < n :
-#         if test_premier(nombre) :
-#             compteur += 1
-#             somme += nombre
-#         nombre += 1
-#     print(somme)
-#     return somme
+ def somme_des_nombres(n) :
+     somme = compteur = 0
+     nombre= 2
+     while  compteur < n :
+         if test_premier(nombre) :
+             compteur += 1
+             somme += nombre
+         nombre += 1
+     print(somme)
+     return somme
 
 # Exercice 2 :
 
